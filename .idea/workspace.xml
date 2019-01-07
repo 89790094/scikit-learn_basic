@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66d44140-c90a-40ec-9d1a-7bdb8a86b5fe" name="Default" comment="" />
+    <list default="true" id="66d44140-c90a-40ec-9d1a-7bdb8a86b5fe" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/save_model_pickle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/save_model_joblib.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/scikitlearn_demo$save_model_joblib.coverage" NAME="save_model_joblib Coverage Results" MODIFIED="1546833794067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikitlearn_demo$validation_curve.coverage" NAME="validation_curve Coverage Results" MODIFIED="1546682439853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikitlearn_demo$boston.coverage" NAME="boston Coverage Results" MODIFIED="1546421564566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikitlearn_demo$cross_validation.coverage" NAME="cross_validation Coverage Results" MODIFIED="1546590908183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -18,14 +24,19 @@
     <SUITE FILE_PATH="coverage/scikitlearn_demo$over_feature.coverage" NAME="over_feature Coverage Results" MODIFIED="1546684328644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikitlearn_demo$test.coverage" NAME="test Coverage Results" MODIFIED="1546576438829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikitlearn_demo$normalization.coverage" NAME="normalization Coverage Results" MODIFIED="1546487002766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scikitlearn_demo$use_model.coverage" NAME="use_model Coverage Results" MODIFIED="1546833919175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scikitlearn_demo$save_model.coverage" NAME="save_model Coverage Results" MODIFIED="1546833033925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="iris.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iris.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="52" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="242">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="6" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="e#19#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tuning.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tuning.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tuning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="396">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
                 <element signature="e#18#70#0" expanded="true" />
               </folding>
@@ -75,9 +86,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="save_model.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/save_model.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="save_model_pickle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/save_model_pickle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#18#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save_model_joblib.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/save_model_joblib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="e#18#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="use_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/use_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="e#18#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="boston.py" pinned="false" current-in-tab="false">
@@ -100,6 +142,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -114,6 +159,9 @@
         <option value="$PROJECT_DIR$/validation_curve.py" />
         <option value="$PROJECT_DIR$/learning_curve.py" />
         <option value="$PROJECT_DIR$/tuning.py" />
+        <option value="$PROJECT_DIR$/save_model.py" />
+        <option value="$PROJECT_DIR$/save_model_joblib.py" />
+        <option value="$PROJECT_DIR$/use_model.py" />
       </list>
     </option>
   </component>
@@ -131,6 +179,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -143,6 +192,11 @@
             <path>
               <item name="scikitlearn_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="scikitlearn_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scikitlearn_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scikitlearn_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,45 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tuning">
-    <configuration name="cross_validation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scikitlearn_demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cross_validation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="matplotlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scikitlearn_demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mat.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.use_model">
     <configuration name="over_feature" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scikitlearn_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +245,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning_curve.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="save_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scikitlearn_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/save_model_pickle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="save_model_joblib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scikitlearn_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/save_model_joblib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +307,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="validation_curve" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="use_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scikitlearn_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,26 +320,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validation_curve.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/use_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.cross_validation" />
       <item itemvalue="Python.over_feature" />
-      <item itemvalue="Python.validation_curve" />
-      <item itemvalue="Python.matplotlib" />
       <item itemvalue="Python.tuning" />
+      <item itemvalue="Python.save_model" />
+      <item itemvalue="Python.use_model" />
+      <item itemvalue="Python.save_model_joblib" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.use_model" />
+        <item itemvalue="Python.save_model_joblib" />
+        <item itemvalue="Python.save_model" />
         <item itemvalue="Python.tuning" />
         <item itemvalue="Python.over_feature" />
-        <item itemvalue="Python.validation_curve" />
-        <item itemvalue="Python.matplotlib" />
-        <item itemvalue="Python.cross_validation" />
       </list>
     </recent_temporary>
   </component>
@@ -318,13 +372,13 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26467663" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32935324" />
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32935324" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10330138" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
       <window_info anchor="right" id="SciView" weight="0.41267306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -351,13 +405,6 @@
           <folding>
             <element signature="e#18#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iris.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -402,18 +449,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="6" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_model_joblib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#18#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/use_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#18#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_model_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#18#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tuning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="396">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="e#18#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/save_model.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
