@@ -12,5 +12,5 @@ clf.fit(x,y)
 # save model as method one:pickle
 
 import pickle
-with open('res/clf.pickle','wb') as f:
+with open('m/clf.pickle','wb') as f:
     pickle.dump(clf,f)

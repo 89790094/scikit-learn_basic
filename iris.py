@@ -11,7 +11,7 @@ iris_x = iris.data
 # 分类
 iris_y = iris.target
 
-# 样本集与测试集分离
+# 划分数据集：样本集与测试集
 x_train, x_test, y_train, y_test = train_test_split(iris_x, iris_y, test_size=0.3, random_state=4)
 
 # 定义模型：K近邻分类器

@@ -12,4 +12,4 @@ clf.fit(x,y)
 # save model as method one:joblib
 
 from sklearn.externals import joblib
-joblib.dump(clf,'res/clf.pkl')
+joblib.dump(clf,'m/clf.pkl')
