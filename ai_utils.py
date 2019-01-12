@@ -117,7 +117,7 @@ def plot_feat_and_price(house_data):
         house_data[[feat_col, 'price']].plot.scatter(x=feat_col, y='price', alpha=0.5,
                                                      ax=axes[int(i / 3), i - 3 * int(i / 3)])
     plt.tight_layout()
-    plt.savefig('./house_feat.png')
+    plt.savefig('./chart/house_feat.png')
     plt.show()
 
 
